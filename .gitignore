@@ -1,0 +1,108 @@
+# Compiled DLLs
+*.dll
+
+# Compiled PDB files
+*.pdb
+
+# Compiled EXE files
+*.exe
+
+# Build directories
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# .NET Core project files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*.dbmdl
+*.bak
+*.backup
+*.log
+*.dmp
+
+# Others
+*.vspscc
+*.vssscc
+*.cache
+*.ide
+*.sdf
+*.opensdf
+*.mdf
+*.ldf
+*.ndj
+*.scc
+
+# Rider
+.idea/
+*.sln.iml
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# DotCover
+*.dotCover
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# NCrunch
+*.ncrunch*
+_NCrunch_*
+
+# Resharper
+*.DotSettings.user
+
+# Local history for Visual Studio
+.localhistory/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+.history/
+
+# Mac OS files
+.DS_Store
+
+# Linux files
+*~
