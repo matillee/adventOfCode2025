@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Target and compatibility -->
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    
+    <!-- Application type -->
+    <OutputType>Exe</OutputType>
+    <StartupObject>AdventOfCode.Day03.Solution</StartupObject>
+    
+    <!-- Build behavior -->
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors Condition="'$(Configuration)' == 'Release'">true</TreatWarningsAsErrors>
+    
+    <!-- Assembly metadata -->
+    <AssemblyTitle>Advent of Code Day 03 - Lobby</AssemblyTitle>
+    <Product>Advent of Code 2025</Product>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+</Project>
